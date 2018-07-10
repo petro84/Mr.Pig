@@ -12,6 +12,10 @@
 		DC4E890220F2AE9300E06148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E890020F2AE9300E06148 /* Main.storyboard */; };
 		DC4E890420F2AE9500E06148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4E890320F2AE9500E06148 /* Assets.xcassets */; };
 		DC4E890720F2AE9500E06148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4E890520F2AE9500E06148 /* LaunchScreen.storyboard */; };
+		DCA204BD20F550430088467E /* GameUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA204BA20F550420088467E /* GameUtils.swift */; };
+		DCA204BE20F550430088467E /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA204BB20F550420088467E /* GameHelper.swift */; };
+		DCA204BF20F550430088467E /* SCNAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA204BC20F550420088467E /* SCNAction+Extensions.swift */; };
+		DCA204C120F550620088467E /* MrPig.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA204C020F550620088467E /* MrPig.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DC4E890320F2AE9500E06148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC4E890620F2AE9500E06148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC4E890820F2AE9500E06148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA204BA20F550420088467E /* GameUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUtils.swift; sourceTree = "<group>"; };
+		DCA204BB20F550420088467E /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameHelper.swift; sourceTree = "<group>"; };
+		DCA204BC20F550420088467E /* SCNAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNAction+Extensions.swift"; sourceTree = "<group>"; };
+		DCA204C020F550620088467E /* MrPig.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = MrPig.scnassets; path = "../../3D_Apple_Games_by_Tutorials_3/19-transitions/resources/MrPig.scnassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		DC4E88FB20F2AE9300E06148 /* Mr.Pig */ = {
 			isa = PBXGroup;
 			children = (
+				DCA204B920F550420088467E /* GameUtils */,
+				DCA204C020F550620088467E /* MrPig.scnassets */,
 				DC4E88FC20F2AE9300E06148 /* AppDelegate.swift */,
 				DC4E88FE20F2AE9300E06148 /* ViewController.swift */,
 				DC4E890020F2AE9300E06148 /* Main.storyboard */,
@@ -62,6 +72,17 @@
 				DC4E890820F2AE9500E06148 /* Info.plist */,
 			);
 			path = Mr.Pig;
+			sourceTree = "<group>";
+		};
+		DCA204B920F550420088467E /* GameUtils */ = {
+			isa = PBXGroup;
+			children = (
+				DCA204BA20F550420088467E /* GameUtils.swift */,
+				DCA204BB20F550420088467E /* GameHelper.swift */,
+				DCA204BC20F550420088467E /* SCNAction+Extensions.swift */,
+			);
+			name = GameUtils;
+			path = "../../3D_Apple_Games_by_Tutorials_3/19-transitions/resources/GameUtils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +146,7 @@
 				DC4E890720F2AE9500E06148 /* LaunchScreen.storyboard in Resources */,
 				DC4E890420F2AE9500E06148 /* Assets.xcassets in Resources */,
 				DC4E890220F2AE9300E06148 /* Main.storyboard in Resources */,
+				DCA204C120F550620088467E /* MrPig.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4E88FF20F2AE9300E06148 /* ViewController.swift in Sources */,
+				DCA204BF20F550430088467E /* SCNAction+Extensions.swift in Sources */,
+				DCA204BE20F550430088467E /* GameHelper.swift in Sources */,
+				DCA204BD20F550430088467E /* GameUtils.swift in Sources */,
 				DC4E88FD20F2AE9300E06148 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
